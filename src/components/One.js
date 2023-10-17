@@ -11,7 +11,7 @@ const One = ({item}) => {
             <p>{status}</p>
             <p>{species}</p>
             <p>{gender}</p>
-            <img src={image}/>
+            <img src={image} alt='user'/>
         </div>
     );
 };

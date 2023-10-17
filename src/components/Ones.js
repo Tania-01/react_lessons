@@ -3,6 +3,7 @@ import React from 'react';
 import One from "./One";
 let rick=[
     {
+        id:1,
         status: "Alive",
         name: "Rick Sanchez",
         species: "Human",
@@ -10,19 +11,23 @@ let rick=[
         image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
     },
     {
+        id:2,
         name: "Summer Smith",
         status: "Alive",
         species: "Human",
         gender: "Female",
         image: "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
     },
-    {name: "Beth Smith",
+    {
+        id:3,
+        name: "Beth Smith",
         status: "Alive",
         species: "Human",
         gender: "Female",
         image: "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
     },
     {
+        id:4,
         name: "Morty Smith",
         status: "Alive",
         species: "Human",
@@ -30,7 +35,9 @@ let rick=[
         gender: "Male",
         image: "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
     },
-    {name: "Jerry Smith",
+    {
+        id:5,
+        name: "Jerry Smith",
         status: "Alive",
         species: "Human",
         gender: "Male",
@@ -38,6 +45,7 @@ let rick=[
     },
 
     {
+        id:6,
         name: "Abadango Cluster Princess",
         status: "Alive",
         species: "Alien",
@@ -49,7 +57,7 @@ let rick=[
 const Ones = () => {
     return (
         <div>
-            {rick.map(value => <One item={value}/>)}
+            {rick.map(value => <One key={value.id} item={value}/>)}
         </div>
     );
 };

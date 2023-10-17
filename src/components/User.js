@@ -8,7 +8,7 @@ const User = ({item}) => {
 <h1>{name} {surname}</h1>
             <p>{age}</p>
             <p>{info}</p>
-            <img src={photo}/>
+            <img src={photo} alt="user"/>
         </div>
     );
 
