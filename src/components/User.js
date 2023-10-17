@@ -11,6 +11,7 @@ const User = ({item}) => {
             <img src={photo}/>
         </div>
     );
+
 };
 
 export default User;

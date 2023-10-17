@@ -6,6 +6,7 @@ const One = ({item}) => {
     const{name,status,species,gender,image}=item
     return (
         <div>
+
             <h1>{name}</h1>
             <p>{status}</p>
             <p>{species}</p>

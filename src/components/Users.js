@@ -38,6 +38,7 @@ let simpsons=[
         photo: 'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png',
     }
 ]
+
 const Users = () => {
     return (
         <div>

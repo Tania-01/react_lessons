@@ -36,6 +36,7 @@ let rick=[
         gender: "Male",
         image: "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
     },
+
     {
         name: "Abadango Cluster Princess",
         status: "Alive",
